@@ -1,0 +1,36 @@
+
+:root {
+    --main: #0077b6;
+    --sub-main: #023e8a;
+    --txt: #fff;
+}
+.container {
+    background-color: #fff;
+    width: 100%;
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 8%;
+    flex-direction: column;
+}
+.container h1 {
+    padding-top: 10px;
+    color: var(--sub-main);
+    /* text-decoration: underline; */
+}
+.gallary {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.gallary img {
+    width: 40vh;
+    max-height: 45vh; /* Ensures images maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    object-fit: cover; /* Ensures images fit nicely */
+}

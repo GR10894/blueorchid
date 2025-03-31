@@ -1,0 +1,30 @@
+.hero-section {
+    margin-top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("css-img/Hero-img.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.hero-content h2 {
+    font-size: 4vmin;
+}
+.hero-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn:hover {
+    background-color: var(--txt);
+}
+.ctn:hover {
+    color: var(--sub-main);
+}
